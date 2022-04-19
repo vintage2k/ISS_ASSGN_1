@@ -9,5 +9,6 @@ do
 done
 echo
 len2=$(($len/2))
+len3=$(($len-$len2))
 test2=$(echo $x | rev)
-echo "${test2:$len2:$len2}${x:$len2:$len2}"
+echo "${test2:$len3:$len2}${x:$len2:$len3}"
