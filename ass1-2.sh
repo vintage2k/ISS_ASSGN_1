@@ -6,5 +6,6 @@ while IFS= read -r line; do
 	echo $var2 "once said" '"'$var1'"' >> speech.txt
 	IFS=
 done < quotes.txt
-cat speech.txt
-rm speech
+
+
+
